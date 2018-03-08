@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>About Us</title>
+        <link href="about.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body onload="codeAddress();">
+        <div id="topMenu">
+            <div id="logo"></div>
+            <div class="but" id="home">Home</div>
+            <div class="but" id="aboutUs">About Us</div>
+            <div class="but" id="contact">Contact</div>
+            <div class="but" id="something">Extra</div>
+        </div>
+        <div id='mobileTopMenu'>
+            <div id="mlogo"></div>
+            <button id='inAndout'>></button>
+        </div>
+        <div id="display" class= row>
+            <div id="h1">About Jay's Fashion</div>
+            <div id="map"></div>
+            <div id='p'> Jay's Fashion is a global fashion destination for 20-somethings. We sell cutting-edge fashion and offer a wide variety of fashion-related content, making jay.com the hub of a thriving fashion community.<br/><br/>We sell over 80,000 branded and own-brand products through localised mobile and web experiences, delivering from our fulfilment centres in the UK, US, Europe and China to almost every country in the world.<br/><br/>For more information please see www.jaysfashion.com</div>
+        </div>
+
+        <script src="about.js"></script>
+        <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCOYA62OBwbkCp7SgiDlDYLCdJOIv1fySY&callback=initMap">
+        </script>
+    </body>
+</html>

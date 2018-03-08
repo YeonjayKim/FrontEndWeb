@@ -1,0 +1,114 @@
+body{
+    background:url(img/background.png) no-repeat bottom center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+#topMenu{
+    position: absolute;
+    width:100%;
+    height:30px;
+    top:50px;
+    left:0px;
+}
+
+#logo{
+    position:absolute;
+    left:0px;
+    right:0px;
+    top:-60px;
+    margin:auto;
+    width:100px;
+    height:100px;
+    background: url(img/logo.png) no-repeat center;
+    background-size: contain;
+    cursor: pointer;
+}
+#mobileTopMenu{
+    display:none;
+    position: fixed;
+    left:-160px;
+    top:0px;
+    width:150px;
+    height:100%;
+    background:lightgrey;
+    z-index: 2;
+}
+#mlogo{
+    position:absolute;
+    left:0px;
+    right:0px;
+    top:10px;
+    margin:auto;
+    width:50px;
+    height:50px;
+    background: url(img/logo.png) no-repeat;
+    background-size:cover;
+}
+#inAndout{
+    position: absolute;
+    top:0px;
+    bottom:0px;
+    right:-20px;
+    margin:auto;
+    width:10px;
+    height:30px;
+}
+.but{
+    position:absolute;
+    font-style:italic;
+    font-size:25px;
+    cursor: pointer;
+}
+#home{
+    left:10%;
+}
+#aboutUs{
+    left:30%;
+}
+#contact{
+    right:30%;
+}
+#something{
+    right:10%;
+}
+#display{
+    position: absolute;
+    display: block;
+    top:200px;
+    left:0px;
+    right:0px;
+    margin:auto;
+    width:70%;
+    height:20%;
+    vertical-align:middle;
+	text-align:center;
+}
+h1{
+    text-align: center;
+    font-size:40px;
+    margin-top:100px;
+}
+p{
+    text-align: center;
+    font-size:30px;
+}
+.conBut{
+    align-content: center;
+    margin:5%;
+    height:100%;
+    cursor:pointer;
+}
+#closeBut{
+    position: absolute;
+    left:0px;
+    right:0px;
+    bottom:0px;
+    margin:auto;
+    width:100px;
+    height:50px;
+    border:none;
+    cursor:pointer;
+    display:none;
+}

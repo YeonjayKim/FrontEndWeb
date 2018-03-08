@@ -1,0 +1,123 @@
+body{
+    background:url(img/background.png) no-repeat bottom center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+#topMenu{
+    position: absolute;
+    width:100%;
+    height:30px;
+    top:50px;
+    left:0px;
+}
+#logo{
+    position:absolute;
+    left:0px;
+    right:0px;
+    top:-60px;
+    margin:auto;
+    width:100px;
+    height:100px;
+    background: url(img/logo.png) no-repeat center;
+    background-size: contain;
+    cursor: pointer;
+}
+#mlogo{
+    position: fixed;
+    display: none;
+    left:0px;
+    right:0px;
+    top:0px;
+    margin:auto;
+    width:70px;
+    height:70px;
+    background: url(img/logo.png) no-repeat center;
+    background-size: contain;
+    cursor: pointer;
+}
+#account{
+    position:absolute;
+    right:70px;
+    top:-70px;
+    width:150px;
+    height:200px;
+    border:2px black solid;
+    text-align: center;
+    font-size:16px;
+    background:lightgrey;
+}
+.but{
+    position:absolute;
+    font-style:italic;
+    font-size:25px;
+    cursor: pointer;
+}
+#home{
+    left:10%;
+}
+#aboutUs{
+    left:30%;
+}
+#contact{
+    right:30%;
+}
+#centerDisplay{
+    position: absolute;
+    height:200px;
+    width:100%;
+    top:20%;
+}
+.centerDisplayBut{
+    position: relative;
+    width:32%;
+    height:100%; 
+    cursor:pointer;
+    background:lightblue;
+    border-radius: 15px;
+}
+#leftDisplay{
+    position: fixed;
+    display: none;
+    left:0px;
+    top:0px;
+    bottom:0px;
+    margin:auto;
+    height:70%;
+    width:70px;
+    transition:1s;
+}
+.leftDisplayBut{
+    position: relative;
+    width:100%;
+    height:32%; 
+    cursor:pointer;
+    background:lightblue;
+    border-radius: 15px;
+}
+#closeKey{
+    position:absolute;
+    width:20px;
+    height:30px;
+    top:0px;
+    bottom:0px;
+    right:-20px;
+    margin:auto;
+    cursor:pointer;
+    background:black;
+    border-radius: 5px;
+    border: none;
+}
+.mainDisplay{
+    position: absolute;
+    top:30%;
+    width:80%;
+    height:40%;
+}
+.mainDisplayItem{
+    position: absolute;
+    width:30%;
+    height:100%;
+}
+

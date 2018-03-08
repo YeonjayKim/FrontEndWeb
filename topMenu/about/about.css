@@ -1,0 +1,99 @@
+body{
+    background:url(img/background.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+#topMenu{
+    position: absolute;
+    width:100%;
+    height:30px;
+    top:50px;
+    left:0px;
+}
+
+#logo{
+    position:absolute;
+    left:0px;
+    right:0px;
+    top:-60px;
+    margin:auto;
+    width:100px;
+    height:100px;
+    background: url(img/logo.png) no-repeat center;
+    background-size: contain;
+    cursor: pointer;
+}
+#mobileTopMenu{
+    display:none;
+    position: fixed;
+    left:-160px;
+    top:0px;
+    width:150px;
+    height:100%;
+    background:lightgrey;
+    z-index: 2;
+}
+#mlogo{
+    position:absolute;
+    left:0px;
+    right:0px;
+    top:10px;
+    margin:auto;
+    width:50px;
+    height:50px;
+    background: url(img/logo.png) no-repeat;
+    background-size:cover;
+}
+#inAndout{
+    position: absolute;
+    top:0px;
+    bottom:0px;
+    right:-20px;
+    margin:auto;
+    width:10px;
+    height:30px;
+}
+.but{
+    position:absolute;
+    font-style:italic;
+    font-size:25px;
+    cursor: pointer;
+}
+#home{
+    left:10%;
+}
+#aboutUs{
+    left:30%;
+}
+#contact{
+    right:30%;
+}
+#something{
+    right:10%;
+}
+#display{
+    position: absolute;
+    top:100px;
+    left:0px;
+    right:0px;
+    margin:auto;
+    width:70%;
+    text-align: center;
+}
+#map{
+    height: 400px;
+    width: 100%;
+}
+#h1 { 
+    width:100%;
+    height:100px;
+    font-size:40px;
+
+}
+#p { 
+    width:100%;
+    font-size:20px;
+
+}

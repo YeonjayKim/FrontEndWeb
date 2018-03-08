@@ -1,0 +1,229 @@
+body{
+    background:url(img/background.png) no-repeat bottom center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+#logo{
+    position:absolute;
+    left:0px;
+    right:0px;
+    top:-60px;
+    margin:auto;
+    width:100px;
+    height:100px;
+    background: url(img/logo.png) no-repeat;
+    background-size:cover;
+    cursor: pointer;
+}
+
+#mobileTopMenu{
+    display:none;
+    position: fixed;
+    left:-160px;
+    top:0px;
+    width:150px;
+    height:100%;
+    background:lightgrey;
+    z-index: 2;
+}
+#mlogo{
+    position:absolute;
+    left:0px;
+    right:0px;
+    top:10px;
+    margin:auto;
+    width:50px;
+    height:50px;
+    background: url(img/logo.png) no-repeat;
+    background-size:cover;
+}
+#inAndout{
+    position: absolute;
+    top:0px;
+    bottom:0px;
+    right:-20px;
+    margin:auto;
+    width:10px;
+    height:30px;
+}
+#account{
+    position:absolute;
+    right:0px;
+    top:-20px;
+    width:150px;
+    height:180px;
+    border:2px black solid;
+    text-align: center;
+    font-size:20px;
+    background:lightgrey;
+}
+#topMenu{
+    position: absolute;
+    width:100%;
+    height:30px;
+    top:50px;
+    left:0px;
+}
+
+#display{
+    position: absolute;
+    left:0px;
+    right:0px;
+    top:-1000px;
+    bottom:0px;
+    margin:auto;
+    width:900px;
+    height:360px;
+    transition:2s;
+}
+#closeBut{
+    position:absolute;
+    bottom:-30px;
+    left:0px;
+    right:0px;
+    margin:auto;
+    width:70px;
+    height:20px;
+    background:#966F33;
+    border:none;
+    cursor:pointer;
+    display:none;
+}
+#closet{
+    position:absolute;
+    left:0px;
+    right:35px;
+    bottom:0px;
+    margin:auto;
+    width:275px;
+    height:285px;
+    background:url(img/closedCloset.png) bottom no-repeat;
+    background-size: contain;
+    cursor: pointer;
+}
+.insideC{
+    position:absolute;
+    width:55px;
+    height:100px;
+    cursor: pointer;
+    z-index: -1;
+}
+#jacket{
+    left:70px;
+    top:40px;
+}
+#shirt{
+    right:45px;
+    top:40px;
+}
+#bag{
+    left:70px;
+    bottom:0px;
+}
+#pants{
+    right:48px;
+    bottom:15px;
+    background:url(img/pantsStack.png) bottom no-repeat;
+    background-size:contain;
+}
+#shoeCloset{
+    position:absolute;
+    left:50px;
+    bottom:0px;
+    width:200px;
+    height:300px;
+    background: url(img/womenShoeCloset.png) bottom no-repeat;
+    background-size: contain;
+    cursor: pointer;
+}
+#shelve{
+    position:absolute;
+    right:0px;
+    bottom:0px;
+    width:300px;
+    height:300px;
+    background: url(img/shelve.png) bottom no-repeat;
+    background-size: contain;
+    
+}
+#jewerllyBox{
+    position:absolute;
+    right:100px;
+    bottom:170px;
+    width:100px;
+    height:70px;
+    background: url(img/jewerllyBox.png) bottom no-repeat;
+    background-size: contain;
+    cursor: pointer;
+    z-index: 1;
+}
+#capdiv{
+    position:absolute;
+    bottom:70px;
+    right:60px;
+    width:170px;
+    height:60px;
+    cursor: pointer;
+    z-index: 1;
+}
+.cap{
+    position:absolute;
+    bottom:0px;
+    width:90px;
+    height:60px;
+}
+#cap1{
+    right:90px;
+    background: url(img/cap.png) bottom no-repeat;
+    background-size: contain;
+}
+#cap2{
+    right:50px;
+    background: url(img/cap2.png) bottom no-repeat;
+    background-size: contain;
+}
+#cap3{
+    right:0px;
+    background: url(img/cap3.png) bottom no-repeat;
+    background-size: contain;
+}
+
+.but{
+    position:absolute;
+    font-style:italic;
+    font-size:25px;
+    cursor: pointer;
+}
+#home{
+    left:10%;
+}
+#aboutUs{
+    left:30%;
+}
+#contact{
+    right:30%;
+}
+.mouseOverItem{
+    position: absolute;
+    width:100px;
+    height:100px;
+    top:-50px;
+}
+#box{
+    position: absolute;
+    left:0px;
+    right:0px;
+    top:-50px;
+    margin:auto;
+    width:40%;
+    height:100px;
+    text-align: center;
+    font-size: 20px;
+    background:url(img/box.png) no-repeat center;
+    background-size:contain;
+}
+p{
+    margin-top:30px;
+}
